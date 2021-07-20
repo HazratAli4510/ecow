@@ -1,0 +1,72 @@
+/* fonts */
+@font-face {
+    font-family:"uni-Regular" ;
+    src: url(../fonts/UniRegular.ttf);
+}
+@font-face {
+    font-family:"uni-Bold" ;
+    src: url(../fonts/UniBold.ttf);
+}
+@font-face {
+    font-family:"uni-Black" ;
+    src: url(../fonts/UniBlack.ttf);
+}
+
+
+/* colors variable */
+:root{
+    --bg-primary:#1A202C;
+    --bg-secondary:#C53030;
+    --text-primary:#4A5568;
+}
+
+
+/* Utility classes */
+
+*{
+    font-family: "Uni-Regular";
+}
+.ecow-bg-primary{
+    background-color: var(--bg-primary);
+}
+.ecow-bg-secondary{
+    background-color: var(--bg-secondary);
+}
+.ecow-text-primary{
+    color: var(--text-primary);
+}
+.ecow-form-border-color{
+    border-color: var(--bg-secondary);
+}
+button:focus, input:focus{
+    box-shadow: none !important;
+    border-color:var(--bg-secondary) !important;
+}
+.font-bold{
+    font-family: "uni-Bold";
+}
+.font-black{
+    font-family: "uni-Black";
+}
+
+
+
+/* Nav Top */
+header form input.form-control{
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+}
+header form button.btn{
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+}
+
+
+
+/* Navbar */
