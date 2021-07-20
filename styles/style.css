@@ -11,6 +11,10 @@
     font-family:"uni-Black" ;
     src: url(../fonts/UniBlack.ttf);
 }
+@font-face {
+    font-family:"Bangla-Font" ;
+    src: url(../fonts/HindSiliguri-Medium.ttf);
+}
 
 
 /* colors variable */
@@ -35,12 +39,11 @@
 .ecow-text-primary{
     color: var(--text-primary);
 }
+.ecow-text-secondary{
+    color: var(--bg-secondary);
+}
 .ecow-form-border-color{
     border-color: var(--bg-secondary);
-}
-button:focus, input:focus{
-    box-shadow: none !important;
-    border-color:var(--bg-secondary) !important;
 }
 .font-bold{
     font-family: "uni-Bold";
@@ -50,6 +53,15 @@ button:focus, input:focus{
 }
 .focus-border-0:focus{
     border: none !important;
+}
+.focus-shadow-0:focus{
+    box-shadow: none !important;
+}
+.font-bangla{
+    font-family: "Bangla-Font";
+}
+.bg-black{
+    background-color: black;
 }
 
 
