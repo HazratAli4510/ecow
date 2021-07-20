@@ -48,6 +48,9 @@ button:focus, input:focus{
 .font-black{
     font-family: "uni-Black";
 }
+.focus-border-0:focus{
+    border: none !important;
+}
 
 
 
