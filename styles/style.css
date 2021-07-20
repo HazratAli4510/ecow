@@ -64,7 +64,12 @@
     background-color: black;
 }
 
-
+.bg-last-slider{
+    background-color: rgb(20, 97, 42);
+}
+.bg-middle-slider{
+    background-color:rgb(19, 62, 182);
+}
 
 /* Nav Top */
 header form input.form-control{
