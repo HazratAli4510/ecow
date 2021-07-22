@@ -30,6 +30,12 @@
 *{
     font-family: "Uni-Regular";
 }
+.ecow-footer-text{
+    color:#9CA9BE;
+}
+.ecow-footer-text:hover{
+    color:#b6c1d1;
+}
 .ecow-bg-primary{
     background-color: var(--bg-primary);
 }
@@ -44,6 +50,9 @@
 }
 .ecow-form-border-color{
     border-color: var(--bg-secondary);
+}
+.ecow-footer-background{
+    background-color: #333E4F;
 }
 .font-bold{
     font-family: "uni-Bold";
@@ -103,4 +112,25 @@ header form button.btn{
     -moz-transform: scale(1.3);
     -ms-transform: scale(1.3);
     -o-transform: scale(1.3);
+}
+
+
+
+/* footer */
+footer .social-icons i{
+    color: #ffff;
+    background:linear-gradient(#C53030,#333E4F);
+    font-size: 1.5em;
+    cursor:pointer;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 5px;
 }
