@@ -84,7 +84,7 @@
               <a class="nav-link text-white font-bold" href="pages/goats/">Goats</a>
             </li>
             <li class="nav-item d-lg-none">
-              <a class="nav-link text-white font-bold" href="#">Sign up</a>
+              <a class="nav-link text-white font-bold" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Sign up</a>
             </li>
             <li class="nav-item d-lg-none">
               <a class="nav-link text-white font-bold" href="#">Help</a>
@@ -93,7 +93,7 @@
         </div>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-lg-inline-flex">
           <li class="nav-item">
-            <a class="nav-link text-white font-bold me-4" href="#">Sign up</a>
+            <a class="nav-link text-white font-bold me-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">Sign up</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white font-bold" href="#">Help</a>
@@ -102,6 +102,46 @@
       </div>
     </nav>
   </header>
+
+
+
+  <!-- Signup Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title font-bold" id="staticBackdropLabel">Sign Up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="formFile" class="form-label">Your Full Name</label>
+          <input class="form-control" type="text" id="formFile">
+        </div>
+        <div class="mb-3">
+          <label for="formFileMultiple" class="form-label">Enter Your Email</label>
+          <input class="form-control" type="email" id="formFileMultiple" multiple>
+        </div>
+        <div class="mb-3">
+          <label for="formFileDisabled" class="form-label">Passowrd</label>
+          <input class="form-control" type="password">
+        </div>
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Confirm Password</label>
+          <input class="form-control" id="formFileSm" type="password">
+        </div>
+        <div>
+          <label for="formFileLg" class="form-label">Enter Your Profile Picture</label>
+          <input class="form-control" id="formFileLg" type="file">
+        </div>
+        <button class="btn ecow-bg-secondary w-100 my-3 text-white"> Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+ </section>
+
+
 
   <!-- Hero Area Slider -->
 
@@ -183,7 +223,7 @@
           <h1>Cows</h1>
         </div>
         <div class="section-indicator">
-          <span><a href="cows/" class="text-decoration-none text-dark me-2 text-uppercase font-bold fs-6">See
+          <span><a href="pages/cows/" class="text-decoration-none text-dark me-2 text-uppercase font-bold fs-6">See
               more</a></span>
           <button class="btn" data-bs-target="#carouselExampleI" data-bs-slide="prev"><i
               class="fas fa-chevron-left"></i></button>
@@ -386,7 +426,7 @@
           <h1>Goats</h1>
         </div>
         <div class="section-indicator">
-          <span><a href="goats/" class="text-decoration-none text-dark me-2 text-uppercase font-bold fs-6">See
+          <span><a href="pages/goats/" class="text-decoration-none text-dark me-2 text-uppercase font-bold fs-6">See
               more</a></span>
           <button class="btn" data-bs-target="#carouselGoats" data-bs-slide="prev"><i
               class="fas fa-chevron-left"></i></button>
