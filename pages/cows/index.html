@@ -37,7 +37,17 @@
                 </form>
                 <div class="icons">
                     <button class="btn shadow rounded-circle ms-5"><i class="far fa-bell"></i></button>
-                    <button class="btn shadow rounded-circle mx-4"><i class="fas fa-user-alt"></i></button>
+                    <div class="position-relative mx-4 d-inline">
+                      <button class="btn shadow rounded-circle  position-relative" id="navbarpdow" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user-alt"></i>
+                      </button>
+                      <form class="dropdown-menu form p-1 w-100 position-absolute"  aria-labelledby="navbarDropdown">
+                        <input class="form-control" type="text" placeholder="username" name="" id="">
+                        <br>
+                        <input class="form-control font-bangla" type="password" placeholder="Password">
+                        <br>
+                        <button class="w-100 btn ecow-bg-secondary text-white">Login</button>
+                      </form>
+                    </div>
                     <button class="btn shadow rounded-circle"><i class="fas fa-cart-arrow-down"></i></button>
                 </div>
               </div>
