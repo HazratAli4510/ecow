@@ -53,6 +53,9 @@
 .ecow-text-primary {
     color: var(--text-primary);
 }
+.ecow-text-primary:hover{
+    color: var(--text-primary);
+}
 
 .ecow-text-secondary {
     color: var(--bg-secondary);
@@ -97,7 +100,18 @@
 .bg-middle-slider {
     background-color: rgb(19, 62, 182);
 }
-
+.ecow-border{
+    border: 1px solid #c2c4c7 !important;
+}
+.ecow-bg-white{
+    background-color: rgb(255, 255, 255) !important;
+}
+.ecow-bg-white:focus{
+    background-color: white !important;
+}
+.ecow-bg-white:hover{
+    background-color: #e9ecef !important;
+}
 /* Nav Top */
 header form input.form-control {
     border-radius: 5px 0 0 5px;

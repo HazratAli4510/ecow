@@ -55,17 +55,7 @@
                 <button class="w-100 btn ecow-bg-secondary text-white">Login</button>
               </form>
             </div>
-             
-            
-            
-
             <button class="btn shadow rounded-circle"><i class="fas fa-cart-arrow-down"></i></button>
-
-
-      
-
-
-
           </div>
         </div>
       </div>
@@ -80,9 +70,9 @@
 
     <!-- nav Bar -->
 
-    <nav class="navbar navbar-expand-lg navbar-light ecow-bg-primary">
-      <div class="container">
-        <div class="nav-brand d-lg-none flex-grow-1">
+    <nav class="navbar p-0 navbar-expand-lg navbar-light ecow-bg-primary">
+      <div class="container p-0">
+        <div class="nav-brand d-lg-none flex-grow-1 py-2">
           <form class="d-flex ">
             <input class="form-control border-2 ecow-form-border-color" type="search" placeholder="Search"
               aria-label="Search">
@@ -98,31 +88,84 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mt-3 mt-lg-0 mb-2 mb-lg-0">
-            <li class="nav-item ecow-bg-secondary px-4 rounded me-lg-4">
+            <li class="nav-item dropdown ecow-bg-secondary px-5 d-flex align-items-center rounded-0 justify-content-between rounded me-lg-4">
+              <div class="d-none d-lg-block nav-link active d-flex justify-content-between align-items-center" id="navbarDropdown" aria-current="page" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="font-bold text-white text-decoration-none">CATEGORIES</a>
+                <i class="ps-5 far text-white fa-angle-down"></i>
+              </div>
+              <ul class="mt-0 border-0 dropdown-menu w-100 rounded-0 ecow-border" aria-labelledby="navbarDropdown">
+                <li class="dropdown-item border-bottom ecow-bg-white">
+                  <a href="./" class="py-2 text-decoration-none ecow-text-primary d-flex align-items-center justify-content-between">
+                    <span>Home</span>
+                    <i class="far fa-chevron-right me-4"></i>
+                  </a>
+                </li>
+                <li class="dropdown-item border-bottom ecow-bg-white">
+                  <a href="pages/all-products" class="py-2 text-decoration-none ecow-text-primary d-flex align-items-center justify-content-between">
+                    <span>All Products</span>
+                    <i class="far fa-chevron-right me-4"></i>
+                  </a>
+                </li>
+                <li class="dropdown-item border-bottom ecow-bg-white">
+                  <a href="pages/cows" class="py-2 text-decoration-none ecow-text-primary d-flex align-items-center justify-content-between">
+                    <span>Cows</span>
+                    <i class="far fa-chevron-right me-4"></i>
+                  </a>
+                </li>
+                <li class="dropdown-item border-bottom ecow-bg-white">
+                  <a href="pages/goats/" class="py-2 text-decoration-none ecow-text-primary d-flex align-items-center justify-content-between">
+                    <span>Goats</span>
+                    <i class="far fa-chevron-right me-4"></i>
+                  </a>
+                </li>
+                <li class="dropdown-item border-bottom ecow-bg-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <a href="#" class="py-2 text-decoration-none ecow-text-primary d-flex align-items-center justify-content-between">
+                    <span>Sign up</span>
+                    <i class="far fa-chevron-right me-4"></i>
+                  </a>
+                </li>
+                <li class="dropdown-item border-bottom ecow-bg-white">
+                  <a href="#" class="py-2 text-decoration-none ecow-text-primary d-flex align-items-center justify-content-between">
+                    <span>Login</span>
+                    <i class="far fa-chevron-right me-4"></i>
+                  </a>
+                </li>
+                <li class="dropdown-item ecow-bg-white">
+                  <a href="#" class="py-2 text-decoration-none ecow-text-primary d-flex align-items-center justify-content-between">
+                    <span>Help</span>
+                    <i class="far fa-chevron-right me-4"></i>
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
+
+
+            <li class="nav-item ecow-bg-secondary px-4 my-0 my-lg-2 rounded me-lg-4">
               <a class="nav-link active font-bold text-white" aria-current="page" href="./">Home</a>
             </li>
-            <li class="nav-item me-lg-4">
+            <li class="nav-item me-lg-4 my-0 my-lg-2">
               <a class="nav-link text-white font-bold" href="pages/all-products/">All Products</a>
             </li>
-            <li class="nav-item me-lg-4">
+            <li class="nav-item me-lg-4 my-0 my-lg-2">
               <a class="nav-link text-white font-bold" href="pages/cows/">Cows</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item my-0 my-lg-2">
               <a class="nav-link text-white font-bold" href="pages/goats/">Goats</a>
             </li>
-            <li class="nav-item d-lg-none">
+            <li class="nav-item d-lg-none my-0">
               <a class="nav-link text-white font-bold" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Sign up</a>
             </li>
-            <li class="nav-item d-lg-none">
+            <li class="nav-item d-lg-none my-0">
               <a class="nav-link text-white font-bold" href="#">Help</a>
             </li>
           </ul>
         </div>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-lg-inline-flex">
-          <li class="nav-item">
+          <li class="nav-item my-2">
             <a class="nav-link text-white font-bold me-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">Sign up</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item my-2">
             <a class="nav-link text-white font-bold" href="#">Help</a>
           </li>
         </ul>
