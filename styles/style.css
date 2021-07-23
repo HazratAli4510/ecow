@@ -1,94 +1,113 @@
 /* fonts */
 @font-face {
-    font-family:"uni-Regular" ;
+    font-family: "uni-Regular";
     src: url(../fonts/UniRegular.ttf);
 }
+
 @font-face {
-    font-family:"uni-Bold" ;
+    font-family: "uni-Bold";
     src: url(../fonts/UniBold.ttf);
 }
+
 @font-face {
-    font-family:"uni-Black" ;
+    font-family: "uni-Black";
     src: url(../fonts/UniBlack.ttf);
 }
+
 @font-face {
-    font-family:"Bangla-Font" ;
+    font-family: "Bangla-Font";
     src: url(../fonts/HindSiliguri-Medium.ttf);
 }
 
 
 /* colors variable */
-:root{
-    --bg-primary:#1A202C;
-    --bg-secondary:#C53030;
-    --text-primary:#4A5568;
+:root {
+    --bg-primary: #1A202C;
+    --bg-secondary: #C53030;
+    --text-primary: #4A5568;
 }
 
 
 /* Utility classes */
 
-*{
+* {
     font-family: "Uni-Regular";
 }
-.ecow-footer-text{
-    color:#9CA9BE;
+
+.ecow-footer-text {
+    color: #9CA9BE;
 }
-.ecow-footer-text:hover{
-    color:#b6c1d1;
+
+.ecow-footer-text:hover {
+    color: #b6c1d1;
 }
-.ecow-bg-primary{
+
+.ecow-bg-primary {
     background-color: var(--bg-primary);
 }
-.ecow-bg-secondary{
+
+.ecow-bg-secondary {
     background-color: var(--bg-secondary);
 }
-.ecow-text-primary{
+
+.ecow-text-primary {
     color: var(--text-primary);
 }
-.ecow-text-secondary{
+
+.ecow-text-secondary {
     color: var(--bg-secondary);
 }
-.ecow-form-border-color{
+
+.ecow-form-border-color {
     border-color: var(--bg-secondary);
 }
-.ecow-footer-background{
+
+.ecow-footer-background {
     background-color: #333E4F;
 }
-.font-bold{
+
+.font-bold {
     font-family: "uni-Bold";
 }
-.font-black{
+
+.font-black {
     font-family: "uni-Black";
 }
-.focus-border-0:focus{
+
+.focus-border-0:focus {
     border: none !important;
 }
-.focus-shadow-0:focus{
+
+.focus-shadow-0:focus {
     box-shadow: none !important;
 }
-.font-bangla{
+
+.font-bangla {
     font-family: "Bangla-Font";
 }
-.bg-black{
+
+.bg-black {
     background-color: black;
 }
 
-.bg-last-slider{
+.bg-last-slider {
     background-color: rgb(20, 97, 42);
 }
-.bg-middle-slider{
-    background-color:rgb(19, 62, 182);
+
+.bg-middle-slider {
+    background-color: rgb(19, 62, 182);
 }
 
 /* Nav Top */
-header form input.form-control{
+header form input.form-control {
     border-radius: 5px 0 0 5px;
     -webkit-border-radius: 5px 0 0 5px;
     -moz-border-radius: 5px 0 0 5px;
     -ms-border-radius: 5px 0 0 5px;
     -o-border-radius: 5px 0 0 5px;
 }
-header form button.btn{
+
+header form button.btn {
     border-radius: 0 5px 5px 0;
     -webkit-border-radius: 0 5px 5px 0;
     -moz-border-radius: 0 5px 5px 0;
@@ -99,14 +118,17 @@ header form button.btn{
 
 
 /* Cows Section */
-#cows .container .card img,#goats .container .card img{
+#cows .container .card img,
+#goats .container .card img {
     transition: transform 0.5s ease;
     -webkit-transition: transform 0.5s ease;
     -moz-transition: transform 0.5s ease;
     -ms-transition: transform 0.5s ease;
     -o-transition: transform 0.5s ease;
 }
-#cows .container .card:hover img,#goats .container .card:hover img{
+
+#cows .container .card:hover img,
+#goats .container .card:hover img {
     transform: scale(1.3);
     -webkit-transform: scale(1.3);
     -moz-transform: scale(1.3);
@@ -117,11 +139,11 @@ header form button.btn{
 
 
 /* footer */
-footer .social-icons i{
+footer .social-icons i {
     color: #ffff;
-    background:linear-gradient(#C53030,#333E4F);
+    background: linear-gradient(#C53030, #333E4F);
     font-size: 1.5em;
-    cursor:pointer;
+    cursor: pointer;
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -133,4 +155,12 @@ footer .social-icons i{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     margin-right: 5px;
+}
+
+
+#mobile-footer-home {
+    max-width: 70px;
+    max-height: 70px;
+    position: relative;
+    bottom: 20px;
 }
